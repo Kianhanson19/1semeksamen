@@ -17,32 +17,21 @@ body {
 
 p {
     font-family: aktiv-grotesk-thin, sans-serif;
-
     font-weight: 200;
-
     font-style: normal;
-
     font-size: 1.5em;
 }
 
 h1 {
-
-
     font-family: aktiv-grotesk, sans-serif;
-
     font-weight: 400;
-
     font-style: normal;
-
 }
 
 h2 {
     font-family: aktiv-grotesk-thin, sans-serif;
-
     font-weight: 200;
-
     font-style: normal;
-
     font-size: 1.5em;
 }
 
@@ -50,7 +39,6 @@ h2 {
 -------------------
 2. Forside
 -------------------*/
-
 
 /*Baggrundsbillede*/
 
@@ -65,7 +53,6 @@ h2 {
 
 }
 
-
 .billede {
     margin: 0;
     position: absolute;
@@ -76,36 +63,23 @@ h2 {
 
 /*Links til undersider*/
 
-
 .link1 p {
     align-items: center;
     display: flex;
-
-
     font-family: aktiv-grotesk-thin, sans-serif;
-
     font-weight: 200;
-
     font-style: normal;
-
     font-size: 1.5em;
-
     padding-top: 100px;
 }
 
 .link2 p {
     align-items: center;
     display: flex;
-
-
     font-family: aktiv-grotesk-thin, sans-serif;
-
     font-weight: 200;
-
     font-style: normal;
-
     font-size: 1.5em;
-
     padding-top: 100px;
 }
 
@@ -113,20 +87,12 @@ h2 {
     .link2 p {
         padding-top: 350px;
         padding-right: 50px;
-
-
-
-
     }
 }
 
 @media only screen and (min-width:1200px) {
     .link1 p {
         padding-top: 350px;
-
-
-
-
     }
 }
 
@@ -152,7 +118,6 @@ a:hover {
     background-size: 4px 50px;
 }
 
-
 /*
 -------------------
 2. Om
@@ -162,6 +127,12 @@ a:hover {
     padding-left: 190px;
 }
 
+@media only screen and (min-width:1200px) {
+    #om1 h1 {
+        padding-left: 380px;
+    }
+}
+
 .foerste {
     display: flex;
     flex-wrap: wrap;
@@ -169,35 +140,32 @@ a:hover {
 }
 
 .del1 {
-    flex-basis: 500px;
+    flex-basis: 400px;
     flex-grow: 1;
-    line-height: 1.6;
+    line-height: 1.4;
+    padding-left: 50px;
 }
 
 .del1 img {
-    padding-left: 190px;
+    padding-left: 150px;
     padding-top: 10px;
 }
 
 @media only screen and (min-width:1200px) {
     .del1 {
         padding-left: 250px;
-
-
-
-
     }
 }
 
 .del1 p {
     color: #C7C711;
+    max-width: 400px;
+    min-width: 300px;
 }
 
 .del2 {
-    flex-basis: 500px;
+    flex-basis: 400px;
     flex-grow: 1;
-
-
 }
 
 .del2 img {
@@ -211,23 +179,12 @@ a:hover {
     .del2 img {
         max-height: 500px;
         max-width: 375px;
-
-
-
-
-
     }
 }
 
 @media only screen and (min-width:600px) {
     .del2 img {
-        max-height: 500px;
-        max-width: 375px;
-        padding-left: 50px;
-
-
-
-
-
+        height: 500px;
+        width: 375px;
     }
 }
