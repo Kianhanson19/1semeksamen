@@ -1,0 +1,22 @@
+/*
+-------------------
+1. Generelle indstillinger
+-------------------*/
+html {
+    background-color: #353F1E;
+}
+
+
+.baggrund {
+    background-color: #353F1E;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.forsidebillede a {
+    width: 25%;
+    height: 25%;
+    padding-left: 1000px;
+
+}
