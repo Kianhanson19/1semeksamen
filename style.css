@@ -137,9 +137,13 @@ a:hover {
 /*#om1*/
 
 #om1 h1 {
+    font-family: aktiv-grotesk-thin, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5em;
     color: #C7C711;
     padding-left: 180px;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 @media only screen and (min-width:1200px) {
@@ -204,6 +208,10 @@ a:hover {
 /*#om2*/
 
 #om2 h1 {
+    font-family: aktiv-grotesk-thin, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5em;
     color: #C7C711;
     padding-left: 215px;
     padding-top: 40px;
@@ -313,5 +321,130 @@ a:hover {
 
 /*
 -------------------
-3. Portfolie
+3. Portfolie startside
 -------------------*/
+/*
+#et {
+    position: absolute;
+
+}
+
+#eto {
+    background: url(tema1.svg);
+    width: 385px;
+    height: 385px;
+    padding-left: 2px;
+
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.0s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.hide {
+    visibility: hidden;
+}
+*/
+#portfolio h1 {
+    font-family: aktiv-grotesk-thin, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #C7C711;
+    padding-left: 170px;
+    padding-top: 40px;
+
+}
+
+@media only screen and (min-width:890px) {
+    #portfolio h1 {
+        padding-left: 400px;
+
+
+    }
+}
+
+@media only screen and (min-width:1285px) {
+    #portfolio h1 {
+        padding-left: 647px;
+
+
+    }
+}
+
+.cirkler {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cirkler img {
+    width: 350px;
+    height: 350px;
+    padding-top: 50px;
+}
+
+@media only screen and (min-width:1200px) {
+    .cirkler img {
+        width: 280px;
+        height: 280px;
+        padding-top: 50px;
+
+    }
+}
+
+#et {
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+#to {
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+#tre {
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+#fire {
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+@media only screen and (min-width:1200px) {
+
+    #to,
+    #tre,
+    #fire {
+        margin-right: 0px;
+        padding-top: 50px;
+        margin-left: 0px;
+
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #et {
+        margin-right: 0px;
+        padding-top: 50px;
+        margin-left: 150px;
+
+    }
+}
