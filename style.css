@@ -82,6 +82,7 @@ h4 {
     font-style: normal;
     font-size: 1.5em;
     padding-top: 100px;
+    color: solid #C7C711;
 }
 
 .link2 p {
@@ -107,27 +108,39 @@ h4 {
     }
 }
 
-/*Gradient hover effekt*/
+/*Hover effekt*/
 
-:root {
-    --mainColor: #A95417;
-}
 
-a.link {
-    background:
-        linear-gradient(to bottom, var(--mainColor) 0%,
-        var(--mainColor) 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 1px 1px;
-    color: #C7C711;
+.link1 a:link {
     text-decoration: none;
-    transition: background-size .2s;
 }
 
-a:hover {
-    background-size: 4px 50px;
+.link1 a:visited {
+    text-decoration: none;
+    color: #C7C711;
 }
+
+.link1 a:hover {
+    background-color: #A95417;
+    height: 100%;
+
+}
+
+.link2 a:link {
+    text-decoration: none;
+}
+
+.link2 a:visited {
+    text-decoration: none;
+    color: #C7C711;
+}
+
+.link2 a:hover {
+    background-color: #A95417;
+    height: 100%;
+
+}
+
 
 /*
 -------------------
@@ -360,6 +373,19 @@ a:hover {
     visibility: hidden;
 }
 */
+
+#portfolio img:hover {
+    background-color: #C7C711;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+#portfolio img:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 1.3s ease-in-out 0s;
+}
+
 #portfolio h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
     font-weight: 200;
