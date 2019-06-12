@@ -138,7 +138,7 @@ a:hover {
 
 #om1 h1 {
     color: #C7C711;
-    padding-left: 170px;
+    padding-left: 180px;
     padding-top: 40px;
 }
 
@@ -205,8 +205,9 @@ a:hover {
 
 #om2 h1 {
     color: #C7C711;
-    padding-left: 170px;
+    padding-left: 215px;
     padding-top: 40px;
+    padding-bottom: 40px
 }
 
 @media only screen and (min-width:1200px) {
@@ -220,6 +221,7 @@ a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
+    background-color: 465912;
 
 }
 
