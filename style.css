@@ -212,7 +212,9 @@ a:hover {
 
 @media only screen and (min-width:1200px) {
     #om2 h1 {
-        padding-left: 650px;
+        padding-left: 670px;
+        padding-bottom: 0px;
+        padding-top: 70px;
     }
 }
 
@@ -221,14 +223,12 @@ a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
-    background-color: 465912;
 
 }
 
 .del3 {
     flex-basis: 400px;
     flex-grow: 1;
-    line-height: 1.4;
 }
 
 .del3 img {
@@ -236,16 +236,82 @@ a:hover {
     height: 100%;
 }
 
+@media only screen and (min-width:600px) {
+    .del3 img {
+        height: 580px;
+        width: 420px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .del3 img {
+        height: 580px;
+        width: 420px;
+        padding-top: 50px;
+        padding-left: 150px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .del3 img {
+        width: 70%;
+        height: 40%;
+        margin-left: 230px;
+        margin-top: 150px;
+        padding-left: 0px;
+    }
+}
+
 
 .del4 {
     flex-basis: 600px;
     flex-grow: 1;
     line-height: 0.9;
+    margin-left: 40px;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+@media only screen and (min-width:900px) {
+    .del4 {
+        margin-right: 130px;
+        margin-left: 70px;
+        line-height: 0.3;
+        max-width: 800px;
+        min-width: 300px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .del4 {
+        margin-right: 130px;
+        margin-left: 70px;
+        line-height: 0.3;
+        max-width: 800px;
+        min-width: 300px;
+    }
 }
 
 .del4 h2 {
     padding-bottom: 10px;
     padding-top: 10px;
+    border: 2px solid #A95417;
+    border-radius: 5px;
+    margin-right: 40px;
+    line-height: 0.5
 }
 
-.del4 p {}
+@media only screen and (min-width:1200px) {
+    .del4 h2 {
+        margin-right: 160px;
+        padding-top: 10px;
+    }
+}
+
+
+/*
+-------------------
+3. Portfolie
+-------------------*/
