@@ -38,6 +38,14 @@ h2 {
     color: #A95417;
 }
 
+h3 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #C7C711;
+}
+
 h4 {
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 400;
@@ -64,6 +72,10 @@ h4 {
 
 }
 
+#portfolio h1 {
+    margin-top: 0px;
+}
+
 .billede {
     margin: 0;
     position: absolute;
@@ -82,7 +94,6 @@ h4 {
     font-style: normal;
     font-size: 1.5em;
     padding-top: 100px;
-    color: solid #C7C711;
 }
 
 .link2 p {
@@ -110,6 +121,11 @@ h4 {
 
 /*Hover effekt*/
 
+.link1 a:hover {
+    background-color: #A95417;
+    height: 100%;
+
+}
 
 .link1 a:link {
     text-decoration: none;
@@ -120,7 +136,7 @@ h4 {
     color: #C7C711;
 }
 
-.link1 a:hover {
+.link2 a:hover {
     background-color: #A95417;
     height: 100%;
 
@@ -135,11 +151,6 @@ h4 {
     color: #C7C711;
 }
 
-.link2 a:hover {
-    background-color: #A95417;
-    height: 100%;
-
-}
 
 
 /*
@@ -370,22 +381,17 @@ h4 {
     color: #C7C711;
     padding-left: 170px;
     padding-top: 40px;
-
 }
 
 @media only screen and (min-width:890px) {
     #portfolio h1 {
         padding-left: 400px;
-
-
     }
 }
 
 @media only screen and (min-width:1285px) {
     #portfolio h1 {
         padding-left: 647px;
-
-
     }
 }
 
@@ -407,14 +413,12 @@ h4 {
         width: 280px;
         height: 280px;
         padding-top: 50px;
-
     }
 }
 
 #et {
     margin-right: 20px;
     margin-left: 70px;
-
 }
 
 #to {
@@ -440,7 +444,6 @@ h4 {
         margin-right: 0px;
         padding-top: 50px;
         margin-left: 0px;
-
     }
 }
 
@@ -449,7 +452,6 @@ h4 {
         margin-right: 0px;
         padding-top: 50px;
         margin-left: 150px;
-
     }
 }
 
@@ -465,7 +467,7 @@ h4 {
     font-size: 2.5em;
     color: #C7C711;
     padding-left: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 4px;
 }
 
@@ -494,8 +496,6 @@ h4 {
     padding-right: 40px;
 }
 
-
-
 @media only screen and (min-width:1200px) {
     .tekst1 {
         padding-left: 200px;
@@ -521,11 +521,357 @@ h4 {
     padding-top: 45px;
 }
 
-
-
 @media only screen and (min-width:600px) {
     .dada img {
         width: 310px;
         height: 675px;
     }
+}
+
+/*
+-------------------
+5. Tema.2 Del. 1
+-------------------*/
+#tema2 h1 {
+    font-family: aktiv-grotesk-thin, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #C7C711;
+    padding-left: 8px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width:1200px) {
+    #tema2 h1 {
+        padding-left: 500px;
+    }
+}
+
+.animation1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+#tema2 h2 {
+    padding-left: 10px;
+    margin-bottom: 1px;
+}
+
+.dokulink p {
+    margin-top: 10px;
+    padding-left: 160px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+
+}
+
+@media only screen and (min-width:1200px) {
+    .dokulink p {
+        padding-top: 20px;
+        padding-left: 215px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.dokulink a:hover {
+    background-color: #C7C711;
+    height: 300px;
+
+}
+
+.dokulink a:link {
+    text-decoration: none;
+}
+
+.dokulink a:visited {
+    text-decoration: none;
+    color: #A95417;
+}
+
+
+.anitekst {
+    flex-basis: 00px;
+    flex-grow: 1;
+    line-height: 1.4;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+@media only screen and (min-width:1200px) {
+    .anitekst {
+        padding-left: 150px;
+
+    }
+}
+
+.anitekst p {
+    color: #C7C711;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 5px;
+}
+
+.anibilleder {
+    flex-basis: 310px;
+    flex-grow: 1;
+}
+
+@media only screen and (min-width:600px) {
+    .anibilleder {
+        flex-basis: 610px;
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .anibilleder {
+        flex-basis: 310px;
+        flex-grow: 1;
+    }
+}
+
+.skaerm1 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.skaerm2 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width:1000px) {
+    .skaerm1 img {
+        padding-right: 100px;
+        padding-top: 10px;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .skaerm2 img {
+        padding-right: 100px;
+        width: 90%;
+        height: 90%;
+        margin-top: 5px;
+    }
+}
+
+
+
+@media only screen and (min-width:600px) {
+    .anibilleder img {
+        padding-right: 100px;
+    }
+}
+
+/*Hover zoom effekt på billeder*/
+.animation1 img:hover {
+    cursor: default;
+    transform: scale(1.3);
+    transition: all 1.3s ease-in-out 0s;
+}
+
+/*
+-------------------
+5. Tema.2 Del. 2
+-------------------*/
+
+
+
+.animation2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+#tema2del2 h2 {
+    padding-left: 45px;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+
+.anibilleder2 p {
+    color: #C7C711;
+}
+
+.anitekst2 {
+    flex-basis: 00px;
+    flex-grow: 1;
+    line-height: 1.4;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (min-width:1200px) {
+    .anitekst2 {
+        padding-left: 150px;
+
+    }
+}
+
+.anitekst2 p {
+    color: #C7C711;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 5px;
+}
+
+.anibillederto {
+    flex-basis: 310px;
+    flex-grow: 1;
+}
+
+@media only screen and (min-width:600px) {
+    .anibillederto {
+        flex-basis: 610px;
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .anibillederto {
+        flex-basis: 310px;
+        flex-grow: 1;
+    }
+}
+
+.skaermtre img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.skaermfire img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.skaermfem img {
+
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width:1000px) {
+    .skaermtre img {
+        margin-left: 40px;
+        padding-top: 10px;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .skaermfire img {
+        padding-right: 100px;
+        width: 90%;
+        height: 90%;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .skaermfem img {
+        padding-right: 100px;
+        padding-top: 10px;
+        width: 90%;
+        height: 90%;
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .anibilleder2 img {
+        padding-right: 100px;
+    }
+}
+
+/*Hover zoom effekt på billeder*/
+.animation2 img:hover {
+    cursor: default;
+    transform: scale(1.3);
+    transition: all 1.3s ease-in-out 0s;
+}
+
+
+
+
+.dokulinkto p {
+    margin-top: 10px;
+    padding-left: 225px;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+
+}
+
+@media only screen and (min-width:1200px) {
+    .dokulinkto p {
+        padding-top: 87px;
+        padding-left: 215px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.dokulinkto a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
+.dokulinkto a:link {
+    text-decoration: none;
+    color: #A95417;
+}
+
+.dokulinkto a:visited {
+    text-decoration: none;
+    color: #A95417;
+}
+
+.dokulinktre p {
+    margin-top: 10px;
+    padding-left: 160px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+
+}
+
+@media only screen and (min-width:1200px) {
+    .dokulinktre p {
+        padding-top: 20px;
+        padding-left: 215px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.dokulinktre a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
+.dokulinktre a:link {
+    text-decoration: none;
+    color: #A95417;
+}
+
+.dokulinktre a:visited {
+    text-decoration: none;
+    color: #A95417;
 }
