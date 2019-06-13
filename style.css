@@ -339,15 +339,28 @@ h4 {
 
 #portfolio img:hover {
     background-color: #C7C711;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding-bottom: 50px;
+}
+
+@media only screen and (min-width:890px) {
+    #portfolio img:hover {
+        background-color: #C7C711;
+        width: 280px;
+        height: 280px;
+        padding-bottom: 50px;
+    }
+
 }
 
 #portfolio img:hover {
     cursor: default;
-    transform: rotate(360deg);
+    transform: rotate(180deg) scale(1.5);
     transition: all 1.3s ease-in-out 0s;
 }
+
+
 
 #portfolio h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
@@ -382,6 +395,7 @@ h4 {
     flex-direction: row;
 }
 
+
 .cirkler img {
     width: 350px;
     height: 350px;
@@ -400,6 +414,7 @@ h4 {
 #et {
     margin-right: 20px;
     margin-left: 70px;
+
 }
 
 #to {
