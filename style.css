@@ -57,6 +57,11 @@ h4 {
 
 /*NAV - BURGER*/
 
+
+header {
+    height: 118px
+}
+
 .hidden {
     transform: translateX(-100%);
     opacity: 0;
@@ -65,13 +70,14 @@ h4 {
 #menuknap {
     display: inline-block;
     padding-left: 30px;
-    padding-top: 30px;
+    padding-top: 30px
 }
 
 #menu {
     list-style-type: none;
-    transition: transform .3s;
+    transition: transform .5s;
     transform-origin: top left;
+    width: 270px;
 }
 
 #menu a {
@@ -83,6 +89,7 @@ h4 {
     text-decoration: none;
 
 }
+
 
 #menu a:hover {
     background-color: #A95417;
@@ -99,8 +106,9 @@ h4 {
     color: #C7C711;
 }
 
-/*
-@media only screen and (min-width: 600px) {
+
+
+@media only screen and (max-width: 800px) {
 
     #menuknap {
         display: none;
@@ -113,11 +121,9 @@ h4 {
 
     #menu li {
         display: inline-block;
+        margin-left: 5px;
     }
 }
-
-*/
-
 
 
 
@@ -146,10 +152,17 @@ h4 {
 .billede {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
+
+@media only screen and (min-width:1200px) {
+    .billede {
+        top: 15%;
+    }
+}
+
 
 /*Links til undersider*/
 
@@ -160,7 +173,7 @@ h4 {
     font-weight: 200;
     font-style: normal;
     font-size: 1.5em;
-    padding-top: 80px;
+    padding-top: 0px;
 }
 
 .link2 p {
@@ -170,19 +183,19 @@ h4 {
     font-weight: 200;
     font-style: normal;
     font-size: 1.5em;
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 @media only screen and (min-width:1200px) {
     .link2 p {
-        padding-top: 350px;
+        padding-top: 50px;
         padding-right: 50px;
     }
 }
 
 @media only screen and (min-width:1200px) {
     .link1 p {
-        padding-top: 350px;
+        padding-top: 50px;
     }
 }
 
