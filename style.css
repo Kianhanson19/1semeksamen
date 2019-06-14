@@ -54,6 +54,73 @@ h4 {
     color: #C7C711;
 }
 
+
+/*NAV - BURGER*/
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+#menu a {
+    font-family: aktiv-grotesk-thin, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #C7C711;
+    text-decoration: none;
+
+}
+
+#menu a:hover {
+    background-color: #A95417;
+    height: 100%;
+
+}
+
+#menu a:link {
+    text-decoration: none;
+}
+
+#menu a:visited {
+    text-decoration: none;
+    color: #C7C711;
+}
+
+/*
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+*/
+
+
+
+
 /*
 -------------------
 2. Forside
@@ -93,7 +160,7 @@ h4 {
     font-weight: 200;
     font-style: normal;
     font-size: 1.5em;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .link2 p {

@@ -1,11 +1,20 @@
-//document.querySelector("#eto").addEventListener("click", Tema);
-//
-//
-//function Tema() {
-//    console.log("clicked");
-//    document.querySelector("#eto").removeEventListener("click", Tema);
-//
-//
-//    this.querySelector(".cirkel").classList.add("fade");
-//
-//}
+window.addEventListener("load", sidenVises);
+
+function sidenVises() {
+    console.log("sidenVises");
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+}
+
+
+function toggleMenu() {
+    console.log("toggleMenu");
+    document.querySelector("#menu").classList.toggle("hidden");
+
+    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").addEventListener("click", toggleMenu)
+    } else {
+        document.querySelector("#menuknap").addEventListener("click", toggleMenu)
+    }
+}
