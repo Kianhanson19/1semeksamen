@@ -1267,7 +1267,7 @@ header {
 
 
 .uxtekst {
-    flex-basis: 00px;
+    flex-basis: 0;
     flex-grow: 1;
     line-height: 1.4;
     padding-left: 40px;
@@ -1278,7 +1278,8 @@ header {
 
 @media only screen and (min-width:1200px) {
     .uxtekst {
-        padding-left: 150px;
+        padding-left: 120px;
+        padding-right: 0px;
 
     }
 }
@@ -1287,7 +1288,6 @@ header {
     color: #C7C711;
     max-width: 500px;
     min-width: 300px;
-    margin-top: px;
 }
 
 .uxbilleder {
@@ -1297,7 +1297,7 @@ header {
 
 @media only screen and (min-width:600px) {
     .uxbilleder {
-        flex-basis: 100px;
+        flex-basis: 200px;
         flex-grow: 1;
     }
 }
@@ -1331,7 +1331,7 @@ header {
     .uxskaermto img {
         padding-right: 20px;
         margin-top: 0px;
-        margin-left: 30px;
+        margin-left: 0px;
     }
 }
 
@@ -1340,7 +1340,7 @@ header {
     .webprototype {
         flex-direction: row;
         display: flex;
-        padding-right: 100px;
+        padding-right: 0px;
     }
 }
 
@@ -1348,7 +1348,7 @@ header {
 
 @media only screen and (min-width:600px) {
     .uxbilleder img {
-        padding-right: 100px;
+        padding-right: 50px;
     }
 }
 
