@@ -1199,3 +1199,348 @@ header {
 
     }
 }
+
+/*
+-------------------
+5. Tema.4 Del. 1
+-------------------*/
+#tema4 h1 {
+    font-family: aktiv-grotesk-thin, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #C7C711;
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width:1200px) {
+    #tema4 h1 {
+        padding-left: 500px;
+    }
+}
+
+.ux1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+#ux h2 {
+    padding-left: 10px;
+    margin-bottom: 1px;
+}
+
+.uxdokulink p {
+    margin-top: 10px;
+    padding-left: 160px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+
+}
+
+@media only screen and (min-width:1200px) {
+    .uxdokulink p {
+        padding-top: 20px;
+        padding-left: 215px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.uxdokulink a:hover {
+    background-color: #C7C711;
+    height: 300px;
+
+}
+
+.uxdokulink a:link {
+    text-decoration: none;
+}
+
+.uxdokulink a:visited {
+    text-decoration: none;
+    color: #A95417;
+}
+
+
+.uxtekst {
+    flex-basis: 00px;
+    flex-grow: 1;
+    line-height: 1.4;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+@media only screen and (min-width:1200px) {
+    .uxtekst {
+        padding-left: 150px;
+
+    }
+}
+
+.uxtekst p {
+    color: #C7C711;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: px;
+}
+
+.uxbilleder {
+    flex-basis: 310px;
+    flex-grow: 1;
+}
+
+@media only screen and (min-width:600px) {
+    .uxbilleder {
+        flex-basis: 610px;
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .uxbilleder {
+        flex-basis: 310px;
+        flex-grow: 1;
+    }
+}
+
+.uxskaerm1 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.uxskaerm2 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width:1000px) {
+    .uxskaerm1 img {
+        padding-right: 100px;
+        padding-top: 10px;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .uxskaerm2 img {
+        padding-right: 100px;
+        width: 90%;
+        height: 90%;
+        margin-top: 5px;
+    }
+}
+
+
+
+@media only screen and (min-width:600px) {
+    .uxbilleder img {
+        padding-right: 100px;
+    }
+}
+
+/*Hover zoom effekt på billeder*/
+.ux1 img:hover {
+    cursor: default;
+    transform: scale(1.3);
+    transition: all 1.3s ease-in-out 0s;
+}
+
+/*
+-------------------
+5. Tema.2 Del. 2
+-------------------*/
+
+
+
+.ux2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+#tema4del2 h2 {
+    padding-left: 45px;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+
+.uxbillederto p {
+    color: #C7C711;
+}
+
+.uxtekst2 {
+    flex-basis: 00px;
+    flex-grow: 1;
+    line-height: 1.4;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (min-width:1200px) {
+    .uxtekst2 {
+        padding-left: 150px;
+
+    }
+}
+
+.uxtekst2 p {
+    color: #C7C711;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 5px;
+}
+
+.uxbillederto {
+    flex-basis: 310px;
+    flex-grow: 1;
+}
+
+@media only screen and (min-width:600px) {
+    .uxbillederto {
+        flex-basis: 610px;
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .uxbillederto {
+        flex-basis: 310px;
+        flex-grow: 1;
+    }
+}
+
+.uxskaermtre img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.uxskaermfire img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.uxskaermfem img {
+
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width:1000px) {
+    .uxskaermtre img {
+        margin-left: 40px;
+        padding-top: 10px;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .uxskaermfire img {
+        padding-right: 100px;
+        width: 90%;
+        height: 90%;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .uxskaermfem img {
+        padding-right: 100px;
+        padding-top: 10px;
+        width: 90%;
+        height: 90%;
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .uxbilleder2 img {
+        padding-right: 100px;
+    }
+}
+
+/*Hover zoom effekt på billeder*/
+.ux2 img:hover {
+    cursor: default;
+    transform: scale(1.3);
+    transition: all 1.3s ease-in-out 0s;
+}
+
+.uxdokulinkto p {
+    margin-top: 10px;
+    padding-left: 225px;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+
+}
+
+@media only screen and (min-width:1200px) {
+    .uxdokulinkto p {
+        padding-top: 87px;
+        padding-left: 215px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.uxdokulinkto a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
+.uxdokulinkto a:link {
+    text-decoration: none;
+    color: #A95417;
+}
+
+.uxdokulinkto a:visited {
+    text-decoration: none;
+    color: #A95417;
+}
+
+.uxdokulinktre p {
+    margin-top: 10px;
+    padding-left: 160px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+
+}
+
+@media only screen and (min-width:1200px) {
+    .uxdokulinktre p {
+        padding-top: 20px;
+        padding-left: 215px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.uxdokulinktre a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
+.uxdokulinktre a:link {
+    text-decoration: none;
+    color: #A95417;
+}
+
+.uxdokulinktre a:visited {
+    text-decoration: none;
+    color: #A95417;
+}
