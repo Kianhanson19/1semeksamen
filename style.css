@@ -705,6 +705,7 @@ Overskrift indstillinger
 
 .dokulink a:link {
     text-decoration: none;
+    color: #A95417;
 }
 
 .dokulink a:visited {
@@ -731,7 +732,7 @@ Overskrift indstillinger
     color: #C7C711;
     max-width: 500px;
     min-width: 300px;
-    margin-top: px;
+    margin-top: 0px;
 }
 
 /*img div indstillinger*/
@@ -1251,6 +1252,12 @@ Overskrift indstillinger
     margin-bottom: 0px;
 }
 
+@media only screen and (min-width:1000px) {
+    #tema4 h1 {
+        padding-left: 300px;
+    }
+}
+
 @media only screen and (min-width:1200px) {
     #tema4 h1 {
         padding-left: 500px;
@@ -1280,6 +1287,15 @@ Overskrift indstillinger
 
 }
 
+@media only screen and (min-width:1000px) {
+    .uxdokulink p {
+        padding-top: 20px;
+        padding-left: 95px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}
+
 @media only screen and (min-width:1200px) {
     .uxdokulink p {
         padding-top: 20px;
@@ -1292,6 +1308,7 @@ Overskrift indstillinger
 /*Hover effekt på link*/
 .uxdokulink a:link {
     text-decoration: none;
+    color: #A95417;
 }
 
 .uxdokulink a:visited {
@@ -1313,6 +1330,13 @@ Overskrift indstillinger
     padding-right: 40px;
 }
 
+@media only screen and (min-width:1000px) {
+    .uxtekst {
+        padding-left: 120px;
+        padding-right: 0px;
+
+    }
+}
 
 
 @media only screen and (min-width:1200px) {
@@ -1357,13 +1381,43 @@ Overskrift indstillinger
     margin-top: 30px;
 }
 
+@media only screen and (min-width: 600px) {
+    .uxskaermet img {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .uxskaermto img {
+        padding-right: 0px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
 @media only screen and (min-width:1000px) {
+    .uxskaermet img {
+        margin-left: 50px;
+
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .uxskaermto img {
+        padding-right: 20px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
     .uxskaermet img {
         margin-left: 0px;
     }
 }
 
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:1200px) {
     .uxskaermto img {
         padding-right: 20px;
         margin-top: 0px;
@@ -1422,6 +1476,14 @@ p og div indstillinger
     padding-right: 40px;
 }
 
+@media only screen and (min-width:1000px) {
+    .uxtekst2 {
+        padding-left: 120px;
+        padding-right: 0px;
+
+    }
+}
+
 @media only screen and (min-width:1200px) {
     .uxtekst2 {
         padding-left: 125px;
@@ -1470,6 +1532,7 @@ p og div indstillinger
 @media only screen and (min-width:1000px) {
     .uxskaermtre img {
         margin-left: 0px;
+        margin-right: 20px;
 
 
     }
@@ -1477,9 +1540,8 @@ p og div indstillinger
 
 @media only screen and (min-width:1000px) {
     .uxskaermfire img {
-        padding-right: 20px;
         margin-top: 0px;
-        margin-left: 30px;
+        margin-left: 0px;
     }
 }
 
@@ -1515,6 +1577,15 @@ p og div indstillinger
 
 }
 
+@media only screen and (min-width:1000px) {
+    .uxdokulinkto p {
+        padding-top: 60px;
+        padding-left: 95px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
 @media only screen and (min-width:1200px) {
     .uxdokulinkto p {
         padding-top: 87px;
@@ -1548,6 +1619,15 @@ p og div indstillinger
     margin-bottom: 20px;
     font-size: 1.7rem;
 
+}
+
+@media only screen and (min-width:1000px) {
+    .uxdokulinktre p {
+        padding-top: 20px;
+        padding-left: 95px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (min-width:1200px) {
