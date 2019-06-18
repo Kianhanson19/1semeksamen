@@ -1357,6 +1357,7 @@ Overskrift indstillinger
 .uxbilleder {
     flex-basis: 310px;
     flex-grow: 1;
+    margin-right: 35px;
 }
 
 @media only screen and (min-width:600px) {
@@ -1369,14 +1370,14 @@ Overskrift indstillinger
 .uxskaermet img {
 
     width: 325px;
-    height: 687px;
+    height: 595px;
     margin-left: 75px;
 }
 
 .uxskaermto img {
 
     width: 325px;
-    height: 687px;
+    height: 595px;
     margin-left: 75px;
     margin-top: 30px;
 }
@@ -1402,7 +1403,7 @@ Overskrift indstillinger
     .uxskaermet img {
         margin-left: 50px;
         width: 325px;
-        height: 587px;
+        height: 595px;
 
     }
 }
@@ -1413,21 +1414,21 @@ Overskrift indstillinger
         margin-top: 30px;
         margin-left: 50px;
         width: 325px;
-        height: 587px;
+        height: 595px;
     }
 }
 
 @media only screen and (min-width:1200px) {
     .uxskaermet img {
         margin-left: 0px;
+        margin-right: 20px;
     }
 }
 
 @media only screen and (min-width:1200px) {
     .uxskaermto img {
-        padding-right: 20px;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 }
 
@@ -1435,13 +1436,12 @@ Overskrift indstillinger
     .webprototype {
         flex-direction: row;
         display: flex;
-        padding-right: 0px;
     }
 }
 
 @media only screen and (min-width:600px) {
     .uxbilleder img {
-        padding-right: 50px;
+        padding-right: 0px;
     }
 }
 
