@@ -1239,13 +1239,14 @@ Overskrift indstillinger
 -------------------
 5. Tema.4 Del. 1
 -------------------*/
+/*Overskrift indstillinger*/
 #tema4 h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 2.5em;
     color: #C7C711;
-    padding-left: 8px;
+    padding-left: 55px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -1256,6 +1257,7 @@ Overskrift indstillinger
     }
 }
 
+/*Flex*/
 .ux1 {
     display: flex;
     flex-wrap: wrap;
@@ -1263,11 +1265,13 @@ Overskrift indstillinger
     align-content: center;
 }
 
+/*underoverskift position*/
 #ux h2 {
     padding-left: 10px;
     margin-bottom: 1px;
 }
 
+/*link str og position*/
 .uxdokulink p {
     margin-top: 10px;
     padding-left: 160px;
@@ -1281,16 +1285,11 @@ Overskrift indstillinger
         padding-top: 20px;
         padding-left: 215px;
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 50px;
     }
 }
 
-.uxdokulink a:hover {
-    background-color: #C7C711;
-    height: 300px;
-
-}
-
+/*Hover effekt på link*/
 .uxdokulink a:link {
     text-decoration: none;
 }
@@ -1300,7 +1299,12 @@ Overskrift indstillinger
     color: #A95417;
 }
 
+.uxdokulink a:hover {
+    background-color: #C7C711;
+    height: 300px;
+}
 
+/*div og p indstillinger*/
 .uxtekst {
     flex-basis: 0;
     flex-grow: 1;
@@ -1325,6 +1329,7 @@ Overskrift indstillinger
     min-width: 300px;
 }
 
+/*img div indstillinger*/
 .uxbilleder {
     flex-basis: 310px;
     flex-grow: 1;
@@ -1336,7 +1341,6 @@ Overskrift indstillinger
         flex-grow: 1;
     }
 }
-
 
 .uxskaermet img {
 
@@ -1353,12 +1357,9 @@ Overskrift indstillinger
     margin-top: 30px;
 }
 
-
 @media only screen and (min-width:1000px) {
     .uxskaermet img {
         margin-left: 0px;
-
-
     }
 }
 
@@ -1370,7 +1371,6 @@ Overskrift indstillinger
     }
 }
 
-
 @media only screen and (min-width:1200px) {
     .webprototype {
         flex-direction: row;
@@ -1378,8 +1378,6 @@ Overskrift indstillinger
         padding-right: 0px;
     }
 }
-
-
 
 @media only screen and (min-width:600px) {
     .uxbilleder img {
@@ -1398,9 +1396,7 @@ Overskrift indstillinger
 -------------------
 5. Tema.2 Del. 2
 -------------------*/
-
-
-
+/*Flex*/
 .ux2 {
     display: flex;
     flex-wrap: wrap;
@@ -1408,16 +1404,16 @@ Overskrift indstillinger
     align-content: center;
 }
 
+/*underoverskrift*/
 #tema4del2 h2 {
-    padding-left: 45px;
+
     margin-bottom: 15px;
     margin-top: 80px;
 }
 
-.uxbillederto p {
-    color: #C7C711;
-}
-
+/*
+p og div indstillinger
+*/
 .uxtekst2 {
     flex-basis: 0;
     flex-grow: 1;
@@ -1441,6 +1437,7 @@ Overskrift indstillinger
     margin-top: 5px;
 }
 
+/*img div indstillinger*/
 .uxbillederto {
     flex-basis: 310px;
     flex-grow: 1;
@@ -1521,18 +1518,13 @@ Overskrift indstillinger
 @media only screen and (min-width:1200px) {
     .uxdokulinkto p {
         padding-top: 87px;
-        padding-left: 215px;
+        padding-left: 245px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
 }
 
-.uxdokulinkto a:hover {
-    background-color: #C7C711;
-    height: 100%;
-
-}
-
+/*Hover effekt på links*/
 .uxdokulinkto a:link {
     text-decoration: none;
     color: #A95417;
@@ -1543,6 +1535,13 @@ Overskrift indstillinger
     color: #A95417;
 }
 
+.uxdokulinkto a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
+/*links str og position*/
 .uxdokulinktre p {
     margin-top: 10px;
     padding-left: 150px;
@@ -1554,17 +1553,13 @@ Overskrift indstillinger
 @media only screen and (min-width:1200px) {
     .uxdokulinktre p {
         padding-top: 20px;
-        padding-left: 215px;
+        padding-left: 245px;
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 40px;
     }
 }
 
-.uxdokulinktre a:hover {
-    background-color: #C7C711;
-    height: 100%;
-
-}
+/*Hover effekt på links*/
 
 .uxdokulinktre a:link {
     text-decoration: none;
@@ -1574,4 +1569,11 @@ Overskrift indstillinger
 .uxdokulinktre a:visited {
     text-decoration: none;
     color: #A95417;
+}
+
+
+.uxdokulinktre a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
 }
