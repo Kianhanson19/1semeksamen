@@ -1369,14 +1369,14 @@ Overskrift indstillinger
 .uxskaermet img {
 
     width: 325px;
-    height: 587px;
+    height: 687px;
     margin-left: 75px;
 }
 
 .uxskaermto img {
 
     width: 325px;
-    height: 587px;
+    height: 687px;
     margin-left: 75px;
     margin-top: 30px;
 }
@@ -1385,6 +1385,7 @@ Overskrift indstillinger
     .uxskaermet img {
         margin-left: 50px;
         margin-right: 0px;
+
     }
 }
 
@@ -1393,12 +1394,15 @@ Overskrift indstillinger
         padding-right: 0px;
         margin-top: 30px;
         margin-left: 50px;
+
     }
 }
 
 @media only screen and (min-width:1000px) {
     .uxskaermet img {
         margin-left: 50px;
+        width: 325px;
+        height: 587px;
 
     }
 }
@@ -1408,6 +1412,8 @@ Overskrift indstillinger
         padding-right: 20px;
         margin-top: 30px;
         margin-left: 50px;
+        width: 325px;
+        height: 587px;
     }
 }
 
