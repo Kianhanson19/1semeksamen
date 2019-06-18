@@ -114,7 +114,7 @@ header {
     color: #C7C711;
 }
 
-
+/*Burgermenu kun over 800px*/
 
 @media only screen and (max-width: 800px) {
 
@@ -205,17 +205,29 @@ header {
 
 /*Hover effekt*/
 
+
+.link1 a:link {
+    text-decoration: none;
+    color: #C7C711;
+}
+
+.link1 a:visited {
+    text-decoration: none;
+    color: #C7C711;
+}
+
 .link1 a:hover {
     background-color: #A95417;
     height: 100%;
 
 }
 
-.link1 a:link {
+.link2 a:link {
     text-decoration: none;
+    color: #C7C711;
 }
 
-.link1 a:visited {
+.link2 a:visited {
     text-decoration: none;
     color: #C7C711;
 }
@@ -225,17 +237,6 @@ header {
     height: 100%;
 
 }
-
-.link2 a:link {
-    text-decoration: none;
-}
-
-.link2 a:visited {
-    text-decoration: none;
-    color: #C7C711;
-}
-
-
 
 /*
 -------------------
@@ -261,6 +262,10 @@ header {
     }
 }
 
+/*
+
+flex på om mig
+*/
 .foerste {
     display: flex;
     flex-wrap: wrap;
@@ -275,6 +280,8 @@ header {
     padding-left: 50px;
 }
 
+/*img indstillinger del1 og 2*/
+
 .del1 img {
     padding-left: 150px;
     padding-top: 10px;
@@ -285,6 +292,8 @@ header {
         padding-left: 300px;
     }
 }
+
+/*skriftindstillinger*/
 
 .del1 p {
     color: #C7C711;
@@ -316,6 +325,8 @@ header {
 
 /*#om2*/
 
+/*overskrift*/
+
 #om2 h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
     font-weight: 200;
@@ -335,6 +346,8 @@ header {
     }
 }
 
+/*Flex på anden del af om mig*/
+
 .anden {
     display: flex;
     flex-wrap: wrap;
@@ -343,6 +356,7 @@ header {
 
 }
 
+/*Indstillinger på mobile og desktop*/
 .del3 {
     flex-basis: 400px;
     flex-grow: 1;
@@ -433,6 +447,8 @@ header {
 3. Portfolie startside
 -------------------*/
 
+/*Hover effekt på links*/
+
 #portfolio img:hover {
     background-color: #C7C711;
     width: 350px;
@@ -456,7 +472,10 @@ header {
     transition: all 1.3s ease-in-out 0s;
 }
 
+/*
 
+Overskrift indstillinger
+*/
 
 #portfolio h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
@@ -480,6 +499,8 @@ header {
     }
 }
 
+/*Indstillinger for cirkel div og img*/
+
 .cirkler {
     display: flex;
     flex-wrap: wrap;
@@ -500,6 +521,8 @@ header {
         padding-top: 50px;
     }
 }
+
+/*Positionering af cirkler*/
 
 #et {
     margin-right: 20px;
@@ -545,6 +568,8 @@ header {
 4. Tema.1
 -------------------*/
 
+/*Overskift indstillinger*/
+
 #tema1 h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
     font-weight: 200;
@@ -562,6 +587,7 @@ header {
     }
 }
 
+/*Flex indstillinger*/
 .responsive {
     display: flex;
     flex-wrap: wrap;
@@ -569,9 +595,12 @@ header {
     align-content: center;
 }
 
+/*Underoverskrift*/
 #tema1 h2 {
     padding-left: 10px;
 }
+
+/*Indstillinger for p tekst og under overskrift*/
 
 .tekst1 {
     flex-basis: 600px;
@@ -594,6 +623,7 @@ header {
     min-width: 300px;
 }
 
+/*Indstillinger for img div*/
 .dada {
     flex-basis: 310px;
     flex-grow: 1;
@@ -617,6 +647,7 @@ header {
 -------------------
 5. Tema.2 Del. 1
 -------------------*/
+/*overskrift indstillinger*/
 #tema2 h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
     font-weight: 200;
@@ -634,6 +665,7 @@ header {
     }
 }
 
+/*Flex for del.1*/
 .animation1 {
     display: flex;
     flex-wrap: wrap;
@@ -641,6 +673,7 @@ header {
     align-content: center;
 }
 
+/*underoverskrift og links*/
 #tema2 h2 {
     padding-left: 10px;
     margin-bottom: 1px;
@@ -663,6 +696,7 @@ header {
     }
 }
 
+/*Hover effekt på links*/
 .dokulink a:hover {
     background-color: #C7C711;
     height: 300px;
@@ -678,7 +712,7 @@ header {
     color: #A95417;
 }
 
-
+/*Indstillinger for p og underoverskrift*/
 .anitekst {
     flex-basis: 00px;
     flex-grow: 1;
@@ -687,12 +721,9 @@ header {
     padding-right: 40px;
 }
 
-
-
 @media only screen and (min-width:1200px) {
     .anitekst {
         padding-left: 150px;
-
     }
 }
 
@@ -703,6 +734,7 @@ header {
     margin-top: px;
 }
 
+/*img div indstillinger*/
 .anibilleder {
     flex-basis: 310px;
     flex-grow: 1;
@@ -723,13 +755,11 @@ header {
 }
 
 .skaerm1 img {
-
     width: 100%;
     height: 100%;
 }
 
 .skaerm2 img {
-
     width: 100%;
     height: 100%;
 }
@@ -771,9 +801,7 @@ header {
 -------------------
 5. Tema.2 Del. 2
 -------------------*/
-
-
-
+/*Flex indstillinger del.2*/
 .animation2 {
     display: flex;
     flex-wrap: wrap;
@@ -781,16 +809,18 @@ header {
     align-content: center;
 }
 
+/*Underoverskrift*/
 #tema2del2 h2 {
-    padding-left: 45px;
     margin-bottom: 15px;
     margin-top: 80px;
 }
 
+/*Links*/
 .anibillederto p {
     color: #C7C711;
 }
 
+/*p tekst*/
 .anitekst2 {
     flex-basis: 00px;
     flex-grow: 1;
@@ -813,6 +843,7 @@ header {
     margin-top: 5px;
 }
 
+/*img div indstillinger*/
 .anibillederto {
     flex-basis: 310px;
     flex-grow: 1;
@@ -833,19 +864,16 @@ header {
 }
 
 .skaermtre img {
-
     width: 100%;
     height: 100%;
 }
 
 .skaermfire img {
-
     width: 100%;
     height: 100%;
 }
 
 .skaermfem img {
-
     width: 100%;
     height: 100%;
     padding-bottom: 20px;
@@ -892,6 +920,7 @@ header {
     transition: all 1.3s ease-in-out 0s;
 }
 
+/*link positionering*/
 .dokulinkto p {
     margin-top: 10px;
     padding-left: 225px;
@@ -909,11 +938,7 @@ header {
     }
 }
 
-.dokulinkto a:hover {
-    background-color: #C7C711;
-    height: 100%;
-
-}
+/*Hover effekt på links*/
 
 .dokulinkto a:link {
     text-decoration: none;
@@ -923,6 +948,12 @@ header {
 .dokulinkto a:visited {
     text-decoration: none;
     color: #A95417;
+}
+
+.dokulinkto a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
 }
 
 .dokulinktre p {
@@ -942,11 +973,6 @@ header {
     }
 }
 
-.dokulinktre a:hover {
-    background-color: #C7C711;
-    height: 100%;
-
-}
 
 .dokulinktre a:link {
     text-decoration: none;
@@ -958,11 +984,18 @@ header {
     color: #A95417;
 }
 
+.dokulinktre a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
 
 /*
 -------------------
 6. Tema.3
 -------------------*/
+/*Overskrift indstillinger*/
 #tema3 h1 {
     font-family: aktiv-grotesk-thin, sans-serif;
     font-weight: 200;
@@ -980,6 +1013,7 @@ header {
     }
 }
 
+/*Flex indstillinger*/
 .indhold {
     display: flex;
     flex-wrap: wrap;
@@ -987,16 +1021,7 @@ header {
     align-content: center;
 }
 
-#tema2del2 h2 {
-    padding-left: 45px;
-    margin-bottom: 15px;
-    margin-top: 80px;
-}
-
-.indholdbilleder p {
-    color: #C7C711;
-}
-
+/*p tekst og div*/
 .indtekst {
     flex-basis: 00px;
     flex-grow: 1;
@@ -1019,6 +1044,7 @@ header {
     margin-top: 5px;
 }
 
+/*img og div indstillinger*/
 .indholdbilleder {
     flex-basis: 310px;
     flex-grow: 1;
@@ -1083,6 +1109,7 @@ header {
     transition: all 1.3s ease-in-out 0s;
 }
 
+/*Link1 position og str*/
 .indholdlink1 p {
     margin-top: 10px;
     padding-left: 195px;
@@ -1100,11 +1127,7 @@ header {
     }
 }
 
-.indholdlink1 a:hover {
-    background-color: #C7C711;
-    height: 100%;
-
-}
+/*Link1 hover effekt*/
 
 .indholdlink1 a:link {
     text-decoration: none;
@@ -1116,6 +1139,13 @@ header {
     color: #A95417;
 }
 
+.indholdlink1 a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
+/*Link2 position og str*/
 .indholdlink2 p {
     margin-top: 10px;
     padding-left: 165px;
@@ -1133,11 +1163,7 @@ header {
     }
 }
 
-.indholdlink2 a:hover {
-    background-color: #C7C711;
-    height: 100%;
-
-}
+/*Link2 hover effekt*/
 
 .indholdlink2 a:link {
     text-decoration: none;
@@ -1149,10 +1175,17 @@ header {
     color: #A95417;
 }
 
+.indholdlink2 a:hover {
+    background-color: #C7C711;
+    height: 100%;
+
+}
+
 /*
 -------------------
 6. Tema.3 video
 -------------------*/
+/*Video underoverskrift*/
 #video h2 {
     margin-top: 30px;
     padding-left: 100px;
@@ -1167,12 +1200,14 @@ header {
     }
 }
 
+/*Flex*/
 #video {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
 
+/*Div indsitllinger*/
 .virksomhed {
     padding-left: 40px
 }
